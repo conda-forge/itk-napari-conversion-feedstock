@@ -1,5 +1,5 @@
 {% set name = "itk-napari-conversion" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/itk_napari_conversion-{{ version }}.tar.gz
-  sha256: 29908dc44cf41c8cc26c51bac98a59a1559ceb8df389c3920e14363da83338dd
+  sha256: 38bed0248dd8800f89a07029e72691c935cb42f3cc7aa9c2a17271ff3970c6ed
 
 build:
   noarch: python
